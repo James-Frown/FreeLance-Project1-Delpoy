@@ -1,0 +1,190 @@
+#root {
+  margin: 0 auto;
+}
+
+.App {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  justify-content: center;
+}
+
+.App__Navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: darkslategrey;
+  padding: 14px 30px;
+}
+
+.Navigation__Text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.Navigation__Text:hover {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.App__Hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 10rem;
+}
+
+.Hero__Title__Wrapper {
+
+}
+
+.Hero__Title {
+
+}
+
+.Hero__Subtitle__Wrapper {
+
+}
+
+.Hero__Subitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Hero__Description__Wrapper {
+
+}
+
+.Hero__Description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Content__Section__Subitle {
+  display: flex;
+  justify-content: center;
+}
+
+.Content__Subitle {
+  margin: 0;
+}
+
+.App__Content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 2rem;
+}
+
+.Flixcard {
+  display: block;
+  background-color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 350px;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(194, 63, 2, 0.699) 0px 18px 36px -18px inset;
+}
+
+.Flixcard__Image {
+  display: block;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 300px;
+}
+
+.Image__BorderRaduis {
+  border-radius: 10px;;
+}
+
+.Flixcard__Content__Wrapper {
+  padding: 0 1.2rem;
+}
+
+.Flixcard__Name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.Flixcard__Producer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.Flixcard__Description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.Flixcard__Link {
+  padding: 1rem 0;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 10px;
+  background-color: rgba(66, 23, 3, 0.582);
+}
+
+.Flixcard__Url__Link {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.Flixcard__Url__Link:hover {
+  color: aquamarine;
+}
+
+.App__Footer {
+
+}
+
+@media screen and (max-width: 600px) {
+  .App__Navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkslategrey;
+    padding: 14px 30px;
+  }
+  
+  .App__Hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .App__Content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 1.5rem;
+  }
+  
+  .Flixcard {
+    display: block;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 350px;
+    height: auto;
+  }
+  
+  .Flixcard__Wrapper {
+    padding: 1rem 0;
+  }
+}
